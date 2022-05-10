@@ -16,6 +16,14 @@
 		CE1566C328297D75006F3D82 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566C228297D75006F3D82 /* WordListTests.swift */; };
 		CE1566CD28297D75006F3D82 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566CC28297D75006F3D82 /* WordListUITests.swift */; };
 		CE1566CF28297D75006F3D82 /* WordListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566CE28297D75006F3D82 /* WordListUITestsLaunchTests.swift */; };
+		CE1566DF28297DA7006F3D82 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1566DC28297DA7006F3D82 /* word_blank.png */; };
+		CE1566E028297DA7006F3D82 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1566DD28297DA7006F3D82 /* fin.png */; };
+		CE1566E128297DA7006F3D82 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1566DE28297DA7006F3D82 /* title_logo.png */; };
+		CE1566E3282984F2006F3D82 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566E2282984F2006F3D82 /* QuestionViewController.swift */; };
+		CE1566E52829853F006F3D82 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566E42829853F006F3D82 /* FinishViewController.swift */; };
+		CE1566E9282985E2006F3D82 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566E8282985E1006F3D82 /* ListTableViewController.swift */; };
+		CE1566EB2829860B006F3D82 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1566EA2829860B006F3D82 /* AddViewController.swift */; };
+		CE3F55AE282A919C004AA841 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F55AD282A919C004AA841 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		CE1566C828297D75006F3D82 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1566CC28297D75006F3D82 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		CE1566CE28297D75006F3D82 /* WordListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE1566DC28297DA7006F3D82 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		CE1566DD28297DA7006F3D82 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		CE1566DE28297DA7006F3D82 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		CE1566E2282984F2006F3D82 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CE1566E42829853F006F3D82 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		CE1566E8282985E1006F3D82 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CE1566EA2829860B006F3D82 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CE3F55AD282A919C004AA841 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +118,16 @@
 				CE1566AB28297D72006F3D82 /* AppDelegate.swift */,
 				CE1566AD28297D72006F3D82 /* SceneDelegate.swift */,
 				CE1566AF28297D72006F3D82 /* ViewController.swift */,
+				CE1566E2282984F2006F3D82 /* QuestionViewController.swift */,
+				CE1566E42829853F006F3D82 /* FinishViewController.swift */,
+				CE1566E8282985E1006F3D82 /* ListTableViewController.swift */,
+				CE1566EA2829860B006F3D82 /* AddViewController.swift */,
+				CE3F55AD282A919C004AA841 /* ListTableViewCell.swift */,
 				CE1566B128297D72006F3D82 /* Main.storyboard */,
 				CE1566B428297D74006F3D82 /* Assets.xcassets */,
 				CE1566B628297D74006F3D82 /* LaunchScreen.storyboard */,
 				CE1566B928297D74006F3D82 /* Info.plist */,
+				CE1566DB28297DA7006F3D82 /* WordList素材 */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -125,6 +147,16 @@
 				CE1566CE28297D75006F3D82 /* WordListUITestsLaunchTests.swift */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		CE1566DB28297DA7006F3D82 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1566DC28297DA7006F3D82 /* word_blank.png */,
+				CE1566DD28297DA7006F3D82 /* fin.png */,
+				CE1566DE28297DA7006F3D82 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1566DF28297DA7006F3D82 /* word_blank.png in Resources */,
+				CE1566E128297DA7006F3D82 /* title_logo.png in Resources */,
 				CE1566B828297D74006F3D82 /* LaunchScreen.storyboard in Resources */,
 				CE1566B528297D74006F3D82 /* Assets.xcassets in Resources */,
+				CE1566E028297DA7006F3D82 /* fin.png in Resources */,
 				CE1566B328297D72006F3D82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1566E52829853F006F3D82 /* FinishViewController.swift in Sources */,
+				CE3F55AE282A919C004AA841 /* ListTableViewCell.swift in Sources */,
 				CE1566B028297D72006F3D82 /* ViewController.swift in Sources */,
+				CE1566EB2829860B006F3D82 /* AddViewController.swift in Sources */,
 				CE1566AC28297D72006F3D82 /* AppDelegate.swift in Sources */,
+				CE1566E9282985E2006F3D82 /* ListTableViewController.swift in Sources */,
+				CE1566E3282984F2006F3D82 /* QuestionViewController.swift in Sources */,
 				CE1566AE28297D72006F3D82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
